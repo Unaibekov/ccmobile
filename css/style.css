@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.shedule {
+    background: radial-gradient(#386883 0%, #1F3D4D 53.06%, #172F3D 100%);
+    padding-top: 30px;
+    text-align: center;
+}
+.shedule-graph {
+
+}
+.section-shedule-graph {
+    margin-right: 20px;
+}
+.shedule-title {
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.shedule-subtitle {
+    font-size: 13px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
