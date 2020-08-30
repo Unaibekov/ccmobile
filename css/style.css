@@ -40,7 +40,8 @@ a {
     display: flex;
     text-transform: uppercase;
     justify-content: center;
-    color: #000000;
+    font-weight: 700;
+
 }
 
 /* SHEDIULE */
@@ -122,17 +123,23 @@ a {
     border-radius: 10px;
     margin-bottom: 10px;
 }
+.grid-second {
+    display: flex;
+    align-items: center;
+    padding: 2% 4%;
+}
 .grid-block {
     margin-right: auto;
     padding-left: 20px;
 }
 .grid-title {
     font-size: 18px;
-    line-height: 19px;
+    font-weight: 700;
+    line-height: 30px;
     color: #1D3639;
 }
 .grid-subtitle {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 14px;
     color: #737373;
 }
@@ -202,6 +209,15 @@ a {
     color: rgba(255, 255, 255, 0.5);
 }
 
+/* DEVIDER */
+
+.devider {
+    background: #dfe7f3;
+    height: 16px;
+    margin: 10px 0;
+}
+
+
 /* TABS */
 
 .tabs {
@@ -253,7 +269,8 @@ a {
   
   .tabcontent {
     display: none;
-    min-height: 180px;
+    padding-top: 10px;
+    /* min-height: 180px; */
   }
   
   .tabcontent.active {
