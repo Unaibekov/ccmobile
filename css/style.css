@@ -124,3 +124,14 @@ body {
     flex-basis: 20%;
     text-align: center;
 }
+.footer-name {
+    font-size: 11px;
+    line-height: 13px;
+    color: #818496;
+}
+
+.footer-name-main {
+    color: #16B374;
+    font-size: 11px;
+    line-height: 13px;
+}
