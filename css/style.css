@@ -11,12 +11,12 @@ a {
 /* MAIN BLOCK */
 .main-block {
     height: 92%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .main-block-header {
     height: 84%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 /* HEADER */
@@ -38,6 +38,7 @@ a {
     line-height: 20px;
     width: 100%;
     display: flex;
+    text-transform: uppercase;
     justify-content: center;
     color: #000000;
 }
@@ -220,23 +221,11 @@ a {
     height: 50px;
     position: relative;
     transition: 0.3s ease;
-    font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 2px;
     background: #f3f5fa;
   }
-  
-  .tablinks:hover {
-  }
-  
-  /* @media screen and (max-width: 512px) {
-    .tablinks {
-      height: 40px;
-      font-size: 12px;
-      width: 50%;
-    }
-  } */
-  
+
   .tablinks:before {
     background: lightgray;
     position: absolute;
