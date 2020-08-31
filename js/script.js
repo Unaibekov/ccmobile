@@ -31,21 +31,6 @@ function topFunction() {
 	document.documentElement.scrollTop = 10;
 };
 
-
-// PRELOADER
-window.onload = () => {
-	let preloader = document.getElementById("preloader");
-	preloader.style.display = "none";
-};
-
-
-// GALLERY
-var elem = document.querySelector(".m-p-g");
-document.addEventListener("DOMContentLoaded", function () {
-	var gallery = new MaterialPhotoGallery(elem);
-});
-
-
 // TABS
 var tabLinks = document.querySelectorAll(".tablinks");
 var tabContent = document.querySelectorAll(".tabcontent");
