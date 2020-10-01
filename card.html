@@ -13,33 +13,32 @@
             <a href="index.html">
                 <img src="img/back.svg" alt="back">
             </a>
-            <div class="header-title">Деньги на карте</div>
+            <div class="header-title">Карта</div>
         </div>
         <div class="main-block-header">
             <section class="card-info">
                 <div class="amount">190 200<span style="font-size: 24px; opacity: 0.5;">,00 ₽</span></div>
                 <div class="card-info-desc">
                     <div class="card-number">•••• 4321</div>
-                    <div class="term">11/21</div>
                 </div>
                 <img src="img/cardfull.svg" alt="card-face">
             </section>
-            <div class="tabs" id="tabs">
+            <!-- <div class="tabs" id="tabs">
                 <button class="tablinks active" data-work="main">
                     <p data-title="main">Основное</p>
                 </button>
                 <button class="tablinks" data-work="history">
                     <p data-title="history">История</p>
                 </button>
-            </div>
+            </div> -->
             <div id="main" class="tabcontent active">
-                <div class="grid-second">
+                <!-- <div class="grid-second">
                     <img src="img/replenish.svg" alt="replenish" class="card">
                     <div class="grid-block">
                         <div class="grid-title">Пополнить карту</div>
                     </div>
-                </div>
-                <div class="devider"></div>
+                </div> -->
+                <!-- <div class="devider"></div> -->
                 <div class="grid-second">
                     <img src="img/pin.svg" alt="pin" class="card">
                     <div class="grid-block">
@@ -60,6 +59,104 @@
                 </div>
                 <div class="devider"></div>
                 <div class="grid-second">
+                    <div style="padding: 0;" class="grid-block">
+                        <div class="grid-title">Реквизиты карты (номер, CVC)</div>
+                    </div>
+                    <img src="img/next.svg" alt="replenish" class="card">
+                </div>
+                <div class="devider"></div>
+                <div style="margin-bottom: 40px;" class="grid-second">
+                    <div style="padding: 0;" class="grid-block">
+                        <div class="grid-title">История операций</div>
+                    </div>
+                    <img src="img/next.svg" alt="replenish" class="card">
+                </div>
+                <div class="accordion">
+                    <div class="accordion-item">
+                      <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Реквизиты карты (номер, CVC)</span><span class="icon" aria-hidden="true"></span></button>
+                      <div class="accordion-content">
+                          <div class="grid-second">
+                            <div style="padding-left: 0;" class="grid-block">
+                                <div class="grid-subtitle">Номер карты</div>
+                                <div class="grid-title">1234 •••• •••• 4321</div>
+                            </div>
+                            <img style="margin-right: 0px;" src="img/eye.svg" alt="next" class="grid-icon">
+                            </div>
+                            <div class="grid-second">
+                                <div style="padding-left: 0;" class="grid-block">
+                                    <div class="grid-subtitle">Срок действия</div>
+                                    <div class="grid-title">11/21</div>
+                                </div>
+                            </div>
+                            <div class="grid-second">
+                                <div style="padding-left: 0;" class="grid-block">
+                                    <div class="grid-subtitle">CVV-2 код</div>
+                                    <div class="grid-title">***</div>
+                                </div>
+                                <img style="margin-right: 0px;" src="img/eye.svg" alt="next" class="grid-icon">
+                            </div>
+                            <div class="grid-second">
+                                <div style="padding-left: 0;" class="grid-block">
+                                    <div style="font-weight: 400; color: #16B374;" class="grid-title">Условия обслуживания и тарифы</div>
+                                </div>
+                            </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">История операций</span><span class="icon" aria-hidden="true"></span></button>
+                      <div class="accordion-content">
+                            <div class="grid-second">
+                                <img src="img/download.svg" alt="replenish" class="card">
+                                <div class="grid-block">
+                                    <div class="grid-title">Получить выписку</div>
+                                </div>
+                            </div>
+                            <div class="devider"></div>
+                            <div class="grid-second history">
+                                <img src="img/replenisoper.svg" alt="applepay" class="card">
+                                <div class="grid-block w100">
+                                    <div class="dflex align-items justify-between w100">
+                                        <div class="grid-title">Пополнение карты</div>
+                                        <div style="color: #16B374;" class="grid-title">+500,00 ₽</div>
+                                    </div>
+                                    <div class="grid-subtitle">17 августа в 15:13</div>
+                                </div>
+                            </div>
+                            <div class="grid-second history">
+                                <img src="img/transaction.svg" alt="applepay" class="card">
+                                <div class="grid-block w100">
+                                    <div class="dflex align-items justify-between w100">
+                                        <div class="grid-title">Татнефть</div>
+                                        <div class="grid-title">500,00 ₽</div>
+                                    </div>
+                                    <div class="grid-subtitle">16 августа в 13:45</div>
+                                </div>
+                            </div>
+                            <div class="grid-second history">
+                                <img src="img/transaction.svg" alt="applepay" class="card">
+                                <div class="grid-block w100">
+                                    <div class="dflex align-items justify-between w100">
+                                        <div class="grid-title">Перекресток</div>
+                                        <div class="grid-title">270,00 ₽</div>
+                                    </div>
+                                    <div class="grid-subtitle">16 августа в 15:30</div>
+                                </div>
+                            </div>
+                            <div class="grid-second history">
+                                <img src="img/transaction.svg" alt="applepay" class="card">
+                                <div class="grid-block w100">
+                                    <div class="dflex align-items justify-between w100">
+                                        <div class="grid-title">Пополнение карты</div>
+                                        <div class="grid-title">+500,00 ₽</div>
+                                    </div>
+                                    <div class="grid-subtitle">17 августа в 15:13</div>
+                                </div>
+                            </div>
+                      </div>
+                    </div>
+                  </div>
+
+                <!-- <div class="grid-second">
                     <div style="padding-left: 0;" class="grid-block">
                         <div class="grid-subtitle">Номер карты</div>
                         <div class="grid-title">1234 •••• •••• 4321</div>
@@ -83,7 +180,7 @@
                     <div style="padding-left: 0;" class="grid-block">
                         <div style="font-weight: 400; color: #16B374;" class="grid-title">Условия обслуживания и тарифы</div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div id="history" class="tabcontent">
                 <div class="grid-second">
